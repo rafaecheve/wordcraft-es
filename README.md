@@ -26,8 +26,8 @@ herramientas de última generación.
 # 👷‍♂️ Construir
 
 ```bash
-npm yo
-npm ejecutar dev
+npm i
+npm run dev
 ```
 
 # ☁️ API
