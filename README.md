@@ -56,18 +56,18 @@ Wordcraft se puede personalizar agregando modelos adicionales o agregando
 operaciones/controles. La arquitectura básica permite una gran cantidad de
 flexibilidad en el
 
-### `/aplicación/contexto`
+### `/app/context`
 
 Define los datos/ejemplos subyacentes que se utilizarán para construir pocos disparos
 instrucciones al modelo de lenguaje subyacente. Estos datos de ejemplo pueden ser
 personalizado para adaptarse a un estilo o género en particular.
 
-### `/aplicación/núcleo/operaciones`
+### `/app/core/operations`
 
 Define cómo se combina la intención del usuario con el estado del documento, gestiona
 actualizar el editor de texto y maneja las opciones del usuario.
 
-### `/aplicación/modelos`
+### `/app/models`
 
 Define cómo se combinan los datos del `Contexto` con un estado de `Operación` para
 construye el texto que se enviará a un modo y analiza la salida del modelo.
